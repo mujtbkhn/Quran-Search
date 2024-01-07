@@ -1,12 +1,12 @@
 // Array of image URLs
 const imageUrls = [
-    'url("/img/ocean.jpg")',
-    'url("/img/1.jpg")',
+    // 'url("/img/ocean.jpg")',
+    // 'url("/img/1.jpg")',
     'url("/img/2.jpg")',
-    'url("/img/3.jpg")',
-    'url("/img/4.jpg")',
+    // 'url("/img/3.jpg")',
+    // 'url("/img/4.jpg")',
     'url("/img/5.jpg")',
-    'url("/img/6.jpg")',
+    // 'url("/img/6.jpg")',
     'url("/img/7.jpg")'
     // Add more image URLs as needed
   ];
