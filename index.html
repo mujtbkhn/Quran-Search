@@ -18,9 +18,12 @@
     </style>
 
     <div class="flex justify-center items-center flex-col mx-auto h-auto max-w-[900px] m-20 rounded-xl opacity-1">
-            <h1 class="text-3xl font-bold text-blue-300 ">Quranic Quote Generator</h1> 
+        <h1 class="text-3xl font-bold text-blue-300 ">Quranic Quote Generator</h1>
         <div class="">
             <div class="my-20 w-[900px] h-52 " id="quotes">
+
+            </div>
+            <div class="my-20 w-[900px] h-52 hidden " id="resultText">
 
             </div>
             <div class="flex items-center justify-center gap-0">
@@ -35,11 +38,14 @@
                 <input id="search-verse" class="px-3 py-3 text-center text-black border-black rounded-md border-1 "
                     type="text" placeholder="Verse Number">
                 <button id="next-verse"><img src="next.png" alt=""></button>
+
             </div>
+
+
 
         </div>
     </div>
-    <script src="constants .js"></script>
+    <script src="constants.js"></script>
     <script src="script.js"></script>
 </body>
 
